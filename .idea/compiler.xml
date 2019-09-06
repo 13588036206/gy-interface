@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="gy-service" />
+        <module name="gy-web" />
+        <module name="gy-util" />
+        <module name="gy-dao" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="gy-dao" target="1.8" />
+      <module name="gy-interface" target="1.8" />
+      <module name="gy-service" target="1.8" />
+      <module name="gy-util" target="1.8" />
+      <module name="gy-web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="gy-dao" options="-parameters" />
+      <module name="gy-interface" options="-parameters" />
+      <module name="gy-service" options="-parameters" />
+      <module name="gy-util" options="-parameters" />
+      <module name="gy-web" options="-parameters" />
+    </option>
+  </component>
+</project>

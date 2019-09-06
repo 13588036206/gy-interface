@@ -1,0 +1,15 @@
+
+CREATE TABLE if not exists communicationLog (
+tid bigint NOT NULL AUTO_INCREMENT ,
+company varchar(20) NULL ,
+requestTime varchar(20) NULL ,
+state int NULL ,
+inputTime varchar(20) NULL,
+PRIMARY KEY (tid),
+KEY idx_inputtime (inputTime)
+);
+
+CREATE TABLE if not exists goodsMapping (
+spdm numeric(19) NULL ,
+goodsid varchar(50) NULL
+);

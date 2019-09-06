@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/gy-dao/gy-dao.iml" filepath="$PROJECT_DIR$/gy-dao/gy-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gy-interface.iml" filepath="$PROJECT_DIR$/gy-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gy-service/gy-service.iml" filepath="$PROJECT_DIR$/gy-service/gy-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gy-util/gy-util.iml" filepath="$PROJECT_DIR$/gy-util/gy-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gy-web/gy-web.iml" filepath="$PROJECT_DIR$/gy-web/gy-web.iml" />
+    </modules>
+  </component>
+</project>

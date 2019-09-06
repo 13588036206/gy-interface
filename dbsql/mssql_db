@@ -1,0 +1,17 @@
+
+if not exists(select * from sysobjects where name='communicationLog' and xtype='U')
+    create table communicationLog(
+    tid bigint NOT NULL IDENTITY(1,1),
+    company varchar(20) NULL ,
+    requestTime varchar(20) NULL ,
+    state int NULL ,
+    inputTime varchar(20) NULL
+)
+GO
+
+if not exists(select * from sysobjects where name='goodsMapping' and xtype='U')
+    create table goodsMapping(
+    spdm numeric(19) NULL ,
+    goodsid varchar(50) NULL
+)
+GO

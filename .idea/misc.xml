@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/gy-web" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/gy-dao/pom.xml" />
+        <option value="$PROJECT_DIR$/gy-service/pom.xml" />
+        <option value="$PROJECT_DIR$/gy-web/pom.xml" />
+        <option value="$PROJECT_DIR$/gy-util/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="SvnBranchConfigurationManager">
+    <option name="myConfigurationMap">
+      <map>
+        <entry key="$PROJECT_DIR$">
+          <value>
+            <SvnBranchConfiguration>
+              <option name="branchUrls">
+                <list>
+                  <option value="https://tt13f.139erp.com:4430/svn/boyuan/erp_pf/gyinterface/gy-interface/branches" />
+                  <option value="https://tt13f.139erp.com:4430/svn/boyuan/erp_pf/gyinterface/gy-interface/tags" />
+                </list>
+              </option>
+              <option name="trunkUrl" value="https://tt13f.139erp.com:4430/svn/boyuan/erp_pf/gyinterface/gy-interface/trunk" />
+            </SvnBranchConfiguration>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
